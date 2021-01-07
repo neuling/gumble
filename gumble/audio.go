@@ -7,7 +7,7 @@ import (
 const (
 	// AudioSampleRate is the audio sample rate (in hertz) for incoming and
 	// outgoing audio.
-	AudioSampleRate = 48000
+	AudioSampleRate = 16000
 
 	// AudioDefaultInterval is the default interval that audio packets are sent
 	// at.
