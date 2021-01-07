@@ -6,13 +6,13 @@ gumble is a [Mumble](https://mumble.info/) client implementation in Go
 
 ## Sub-projects
 
-- gumble ([docs](https://pkg.go.dev/layeh.com/gumble/gumble))
+- gumble ([docs](https://pkg.go.dev/github.com/neuling/gumble))
     - Client library
-- gumbleopenal ([docs](https://pkg.go.dev/layeh.com/gumble/gumbleopenal))
+- gumbleopenal ([docs](https://pkg.go.dev/github.com/neuling/gumbleopenal))
     - [OpenAL](http://kcat.strangesoft.net/openal.html) audio system for gumble
-- gumbleffmpeg ([docs](https://pkg.go.dev/layeh.com/gumble/gumbleffmpeg))
+- gumbleffmpeg ([docs](https://pkg.go.dev/github.com/neuling/gumbleffmpeg))
     - [ffmpeg](https://www.ffmpeg.org/) audio source for gumble
-- gumbleutil ([docs](https://pkg.go.dev/layeh.com/gumble/gumbleutil))
+- gumbleutil ([docs](https://pkg.go.dev/github.com/neuling/gumbleutil))
     - Extras that can make working with gumble easier
 
 ## Example
@@ -21,8 +21,8 @@ gumble is a [Mumble](https://mumble.info/) client implementation in Go
 package main
 
 import (
-  "layeh.com/gumble/gumble"
-  "layeh.com/gumble/gumbleutil"
+  "github.com/neuling/gumble"
+  "github.com/neuling/gumbleutil"
 )
 
 func main() {
