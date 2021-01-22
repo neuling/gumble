@@ -1,7 +1,7 @@
 package gumbleutil
 
 import (
-	"github.com/neuling/gumble"
+	"github.com/neuling/gumble/gumble"
 )
 
 // Listener is a struct that implements the gumble.EventListener interface. The
