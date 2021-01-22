@@ -3,7 +3,7 @@ package gumbleutil
 import (
 	"time"
 
-	"github.com/neuling/gumble"
+	"github.com/neuling/gumble/gumble"
 )
 
 var autoBitrate = &Listener{
