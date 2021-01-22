@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/neuling/gumble/MumbleProto"
-	"github.com/neuling/gumble/varint"
+	"github.com/neuling/gumble/gumble/MumbleProto"
+	"github.com/neuling/gumble/gumble/varint"
 )
 
 var (
