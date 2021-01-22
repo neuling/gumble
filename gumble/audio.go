@@ -7,11 +7,11 @@ import (
 const (
 	// AudioSampleRate is the audio sample rate (in hertz) for incoming and
 	// outgoing audio.
-	AudioSampleRate = 16000
+	AudioSampleRate = 48000
 
 	// AudioDefaultInterval is the default interval that audio packets are sent
 	// at.
-	AudioDefaultInterval = 40 * time.Millisecond
+	AudioDefaultInterval = 10 * time.Millisecond
 
 	// AudioDefaultFrameSize is the number of audio frames that should be sent in
 	// a 10ms window.
@@ -23,7 +23,7 @@ const (
 
 	// AudioDefaultDataBytes is the default number of bytes that an audio frame
 	// can use.
-	AudioDefaultDataBytes = 40
+	AudioDefaultDataBytes = 60
 
 	// AudioChannels is the number of audio channels that are contained in an
 	// audio stream.
