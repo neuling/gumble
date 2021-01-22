@@ -11,7 +11,7 @@ const (
 
 	// AudioDefaultInterval is the default interval that audio packets are sent
 	// at.
-	AudioDefaultInterval = 10 * time.Millisecond
+	AudioDefaultInterval = 40 * time.Millisecond
 
 	// AudioDefaultFrameSize is the number of audio frames that should be sent in
 	// a 10ms window.
