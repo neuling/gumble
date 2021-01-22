@@ -1,7 +1,7 @@
 package gumbleutil
 
 import (
-	"github.com/neuling/gumble"
+	"github.com/neuling/gumble/gumble"
 )
 
 // ChannelPath returns a slice of channel names, starting from the root channel
