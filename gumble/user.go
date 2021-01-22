@@ -2,7 +2,7 @@ package gumble
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/neuling/gumble/MumbleProto"
+	"github.com/neuling/gumble/gumble/MumbleProto"
 )
 
 // User represents a user that is currently connected to the server.
