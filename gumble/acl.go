@@ -2,7 +2,7 @@ package gumble
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/neuling/gumble/MumbleProto"
+	"github.com/neuling/gumble/gumble/MumbleProto"
 )
 
 // ACL contains a list of ACLGroups and ACLRules linked to a channel.
